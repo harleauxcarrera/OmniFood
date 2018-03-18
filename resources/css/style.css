@@ -190,6 +190,10 @@ h2:after{
     margin-top: 40px;
     padding-left: 40px;
   }
+
+  /*-------------------------------*/
+  /*----NAV BAR ----*/
+  /*-------------------------------*/
 .main-nav{
   float: right;
   list-style: none;
@@ -211,13 +215,14 @@ h2:after{
   transition: border-bottom 0.2s;
 }
 .main-nav li a:hover,
-.main-nav li a:active{.section
+.main-nav li a:active{
   border-bottom: solid 2px #cf6d17;
   transition: border-bottom 0.36s;
-
 }
 
-/*MENU ITEMS*/
+/*-------------------------------*/
+/*---- MEALS SECTION ----*/
+/*-------------------------------*/
 
 .section-features{
   padding: 0;
@@ -229,8 +234,6 @@ h2:after{
 .section-meals{
   padding: 0;
 }
-
-
 .meals-showcase{
   list-style: none;
   width: 100%;
@@ -259,7 +262,7 @@ h2:after{
 }
 
 /*-------------------------------*/
-/*---- How it works ----*/
+/*---- STEPS SECTION: HOW IT WORKS ----*/
 /*-------------------------------*/
 
 .section-steps{
@@ -298,4 +301,93 @@ h2:after{
   float: left;
   font-size: 150%;
   margin-right: 25px;
+}
+
+/*-------------------------------*/
+/*---- CITIES SECTION ----*/
+/*-------------------------------*/
+
+/*city image takes 100% of column*/
+.box img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.box img:hover{
+  transform: scale(1.063);
+  transition: transform 0.9s;
+}
+
+.city-feature{
+  margin-bottom: 6px;
+}
+.city-feature i{
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  margin-right: 6px;
+  margin-left: -3.6px;
+}
+.city-feature a{
+  text-decoration: none;
+  font-size: 80%;
+  color: #e67e22;
+  padding-bottom:3px;
+}
+.city-feature a:hover{
+  color: blue;
+  transition: color 0.2s;
+}
+
+
+.section-customers{
+  /*add linear gradient for transperancy on top of image, black rgba color,.7 percent*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/hero.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+.section-customers .row{
+  color: white;
+}
+
+.section-customers .customer{
+
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.section-customers i{
+  line-height: 40px;
+  padding-bottom: 30px;
+
+}
+
+.section-customers img{
+  width: 60px;
+  height: auto;
+  float: left;
+
+}
+.cite{
+  padding-top:60px;
+
+}
+
+.cite img{
+  margin-right: 20px;
+  border-radius: 26px;
+  margin-top: -16px;
+}
+
+#quote{
+  padding-bottom: 30px;
 }
