@@ -262,7 +262,9 @@ h2:after{
 /*---- How it works ----*/
 /*-------------------------------*/
 
-
+.section-steps{
+  background-color: #e6e6e6;
+}
 
 
 .steps-box:first-child{/*select left col 1-of-2*/
