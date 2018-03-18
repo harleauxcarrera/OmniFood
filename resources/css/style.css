@@ -204,9 +204,12 @@ h2:after{
 
 }
 
-.features{
+.section-features{
   padding: 0;
   padding-top: 80px;
+}
+.section-features .long-copy{
+  padding-bottom: 36px;
 }
 .sections-meals{
   padding: 0;
@@ -237,4 +240,43 @@ h2:after{
 .meal-photo img:hover{
   transform: scale(1.03); /* (zoom out to original img size when hoverd over)*/
   opacity: 1;
+}
+
+/*-------------------------------*/
+/*---- How it works ----*/
+/*-------------------------------*/
+
+
+
+
+.steps-box:first-child{/*select left col 1-of-2*/
+  text-align: right;
+  padding-right: 3%; /*fluid layout uses precentages*/
+    margin-top: 30px;
+}
+
+.steps-box:last-child{/*select right col 1-of-2*/
+  padding-left: 3%;
+  margin-top: 130px;
+}
+
+.iphone-img{
+  width: 40%;
+}
+
+.works-step{
+  margin-bottom: 50px;
+}
+.works-step div{
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  display: inline-block;/*doesn't force line break(Elements can be side by side)*/
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
 }
