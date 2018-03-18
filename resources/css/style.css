@@ -204,6 +204,8 @@ h2:after{
 
 }
 
+/*MENU ITEMS*/
+
 .section-features{
   padding: 0;
   padding-top: 80px;
@@ -238,7 +240,7 @@ h2:after{
   transition: transform 0.36s, opacity 0.36s ; /*animate the transform */
 }
 .meal-photo img:hover{
-  transform: scale(1.03); /* (zoom out to original img size when hoverd over)*/
+  transform: scale(1.06); /* (zoom out to original img size when hoverd over)*/
   opacity: 1;
 }
 
