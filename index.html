@@ -1,293 +1,454 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Omni Food</title>
-    <link rel="stylesheet" href="./vendors/css/grid.css">
-    <link rel="stylesheet" href="./vendors/css/normalize.css">
-      <link rel="stylesheet" href="./vendors/css/ionicons.min.css">
-    <link rel="stylesheet" href="resources/css/style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Omni Food</title>
+  <link rel="stylesheet" href="./vendors/css/grid.css">
+  <link rel="stylesheet" href="./vendors/css/normalize.css">
+  <link rel="stylesheet" href="./vendors/css/ionicons.min.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 
 
-  </head>
+</head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="row">
-          <img src="./resources/img/logo-white.png" alt="OmniFood" class="logo">
-          <ul class="main-nav">
-            <li>  <a href="#">Food Delivery</a> </li>
-            <li>  <a href="#">Our Cities</a>    </li>
-            <li>  <a href="#">How It Works</a>  </li>
-            <li>  <a href="#">Sign Up</a>       </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="heroImage-text-box">
-        <h1>Goodbye Junk good <br> Hello getripped foossd.</h1>
-        <a class="btn btn-full" href="#">I'm Hungry</a>
-        <a  class="btn btn-ghost" href="#">Show me More!</a>
-      </div>
-    </header>
-
-    <section class="section-features">
+<body>
+  <header>
+    <nav>
       <div class="row">
-        <h2>Get food fast &mdash; not fast food.</h2>
-        <p class="long-copy">
-          Hello, we're OmniFood, your new premium food delivery service. We know you're always
-          busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
+        <img src="./resources/img/logo-white.png" alt="OmniFood" class="logo">
+        <ul class="main-nav">
+          <li> <a href="#">Food Delivery</a> </li>
+          <li> <a href="#">Our Cities</a> </li>
+          <li> <a href="#">How It Works</a> </li>
+          <li> <a href="#">Sign Up</a> </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="heroImage-text-box">
+      <h1>Goodbye Junk good <br> Hello getripped foossd.</h1>
+      <a class="btn btn-full" href="#">I'm Hungry</a>
+      <a class="btn btn-ghost" href="#">Show me More!</a>
+    </div>
+  </header>
+
+  <section class="section-features">
+    <div class="row">
+      <h2>Get food fast &mdash; not fast food.</h2>
+      <p class="long-copy">
+        Hello, we're OmniFood, your new premium food delivery service. We know you're always
+        busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col span-1-of-4 box">
+        <i class="ion-ios-stopwatch-outline icon-big"></i>
+        <h3>Ready in 20 minutes!</h3>
+        <p>
+          You're only twenty minutes awary from your delicious and super healthy meals delivered right
+          to your home. We work with the best chefs in each town to ensure that you're 100% happy.
         </p>
       </div>
+      <div class="col span-1-of-4 box">
+        <i class="ion-ios-infinite-outline icon-big"></i>
+        <h3>Up to 365 days/year</h3>
+        <p>
+          Never cook again! We really mean that. Our subcription plans include up
+          365 Days out of the year coverage. You can also choose to order
+          more flexibly if that's our style.
+        </p>
+      </div>
+      <div class="col span-1-of-4 box">
+        <i class="ion-ios-nutrition-outline icon-big"></i>
+        <h3>100% Organic</h3>
+        <p>
+          All our vegetables are fresh and organic and local. Animals are rasied without
+          added hormones or antibiodics. Good for your health, the environment, and it also tastes
+          better!
+        </p>
+      </div>
+      <div class="col span-1-of-4 box">
+        <i class="ion-ios-cart-outline icon-big"></i>
+        <h3>Order Anything </h3>
+        <p>
+          We don't limit your creativity, which means you can order whatever you feel like.
+          You can also choose from our menu containing over 100 delicious meals. It's up to you!
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--look at the css to see how image blocks were styled-->
+  <section class="section-meals">
+    <!--don't use row div bc we want photogrid to take 100% width-->
+    <ul class="meals-showcase clearfix">
+      <li>
+        <figure class="meal-photo">
+          <img src="./resources/img/1.jpg" alt="Some bomb food goes here">
+        </figure>
+      </li>
 
-      <div class="row">
-        <div class="col span-1-of-4 box">
-          <i class="ion-ios-stopwatch-outline icon-big"></i>
-          <h3>Ready in 20 minutes!</h3>
-          <p>
-            You're only twenty minutes awary from your delicious and super healthy meals delivered right
-            to your home. We work with the best chefs in each town to ensure that you're 100% happy.
-          </p>
-         </div>
-         <div class="col span-1-of-4 box">
-           <i class="ion-ios-infinite-outline icon-big"></i>
-           <h3>Up to 365 days/year</h3>
-           <p>
-             Never cook again! We really mean that. Our subcription plans include up
-             365 Days out of the year coverage. You can also choose to order
-             more flexibly if that's our style.
-           </p>
+      <li>
+        <figure class="meal-photo">
+          <img src="./resources/img/2.jpg" alt="Some bomb food goes here">
+        </figure>
+      </li>
+
+      <li>
+        <figure class="meal-photo">
+          <img src="./resources/img/3.jpg" alt="Some bomb food goes here">
+        </figure>
+      </li>
+
+      <li>
+        <figure class="meal-photo">
+          <img src="./resources/img/4.jpg" alt="Some bomb food goes here">
+        </figure>
+      </li>
+    </ul>
+    <ul class="meals-showcase clearfix">
+      <li>
+        <figure class="meal-photo">
+          <img src="./resources/img/5.jpg" alt="Some bomb food goes here">
+        </figure>
+      </li>
+
+      <li>
+        <figure class="meal-photo">
+          <img src="./resources/img/6.jpg" alt="Some bomb food goes here">
+        </figure>
+      </li>
+
+      <li>
+        <figure class="meal-photo">
+          <img src="./resources/img/7.jpg" alt="Some bomb food goes here">
+        </figure>
+      </li>
+
+      <li>
+        <figure class="meal-photo">
+          <img src="./resources/img/8.jpg" alt="Some bomb food goes here">
+        </figure>
+      </li>
+    </ul>
+
+  </section>
+
+  <section class="section-steps">
+    <div class="row">
+      <h2 class="stepsh2">How It Works &mdash Simple as 1, 2, 3</h2>
+    </div>
+    <div class="row">
+      <div class="col span-1-of-2 steps-box">
+        <img src="./resources/img/app-Iphone.png" alt="Iphone" class="iphone-img">
+      </div>
+      <div class="col span-1-of-2 steps-box">
+        <div class="works-step">
+          <div>1</div>
+          <p>Choose the subcription that best fits yours needs and sign up today.</p>
+        </div>
+        <div class="works-step">
+          <div>2</div>
+          <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+        </div>
+        <div class="works-step">
+          <div>3</div>
+          <p>Enjoy your meal after less that 20 minutes. See you the next time!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--CITIES-->
+  <section class="section-cities">
+    <div class="row">
+      <h2>We are currently in these cities</h2>
+    </div>
+
+    <div class="row">
+      <div class="col span-1-of-4 box">
+        <img src="resources/img/lisbon-3.jpg" alt="">
+        <h3>Lisbon</h3>
+        <div class="city-feature">
+          <i class="ion-ios-person"></i>
+          1600+ Happy Eaters
+        </div>
+        <div class="city-feature">
+          <i class="ion-ios-star"></i>
+          60+ Top Chefs
+        </div>
+        <div class="city-feature">
+          <i class="ion-social-twitter"></i>
+          <a href="#">@harleauxcarrera</a>
+        </div>
+      </div>
+      <div class="col span-1-of-4 box">
+        <img src="resources/img/berlin.jpg" alt="">
+        <h3>San Fransisco</h3>
+        <div class="city-feature">
+          <i class="ion-ios-person"></i>
+          1600+ Happy Eaters
+        </div>
+        <div class="city-feature">
+          <i class="ion-ios-star"></i>
+          60+ Top Chefs
+        </div>
+        <div class="city-feature">
+          <i class="ion-social-twitter"></i>
+          <a href="#">@harleauxcarrera</a>
+        </div>
+      </div>
+      <div class="col span-1-of-4 box">
+        <img src="resources/img/berlin.jpg" alt="">
+        <h3>Berlin</h3>
+        <div class="city-feature">
+          <i class="ion-ios-person"></i>
+          3600+ Happy Eaters
+        </div>
+        <div class="city-feature">
+          <i class="ion-ios-star"></i>
+          36+ Top Chefs
+        </div>
+        <div class="city-feature">
+          <i class="ion-social-twitter"></i>
+          <a href="#">@harleauxcarrera</a>
+        </div>
+      </div>
+      <div class="col span-1-of-4 box">
+        <img src="resources/img/london.jpg" alt="">
+        <h3>London</h3>
+        <div class="city-feature">
+          <i class="ion-ios-person"></i>
+          1600+ Happy Eaters
+        </div>
+        <div class="city-feature">
+          <i class="ion-ios-star"></i>
+          60+ Top Chefs
+        </div>
+        <div class="city-feature">
+          <i class="ion-social-twitter"></i>
+          <a href="#">@harleauxcarrera</a>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <section class="section-customers">
+    <div class="row">
+      <h2>Our Customers Can't Live Without Us</h2>
+    </div>
+
+    <div class="row">
+      <div class="col span-1-of-3 customer">
+        <i class="ion-quote"></i>
+        <blockquote class="quote" id="quote">
+          <i>
+            Omni Food is the best! I just got a subcription to their meals
+            and let me tell ya; I've dropped so much weight without really having to do much.
+            I just keep my diet consistent and next thing you know I'm twenty lbs lighter!
+          </i>
+          <div class="cite" <cite> <img src="resources/img/customer-1.jpg"> - Harleaux Carrera</cite>
           </div>
-          <div class="col span-1-of-4 box">
-             <i class="ion-ios-nutrition-outline icon-big"></i>
-            <h3>100% Organic</h3>
-            <p>
-              All our vegetables are fresh and organic and local. Animals are rasied without
-              added hormones or antibiodics. Good for your health, the environment, and it also tastes
-              better!
-            </p>
-           </div>
-           <div class="col span-1-of-4 box">
-             <i class="ion-ios-cart-outline icon-big"></i>
-             <h3>Order Anything </h3>
-             <p>
-               We don't limit your creativity, which means you can order whatever you feel like.
-               You can also choose from our menu containing over 100 delicious meals. It's up to you!
-             </p>
-            </div>
+
+        </blockquote>
       </div>
-    </section>
-    <!--look at the css to see how image blocks were styled-->
-    <section class="section-meals">
-      <!--don't use row div bc we want photogrid to take 100% width-->
-      <ul class="meals-showcase clearfix">
-          <li>
-            <figure class="meal-photo">
-              <img src="./resources/img/1.jpg" alt="Some bomb food goes here">
-            </figure>
-          </li>
-
-          <li>
-            <figure class="meal-photo">
-              <img src="./resources/img/2.jpg" alt="Some bomb food goes here">
-            </figure>
-          </li>
-
-          <li>
-            <figure class="meal-photo">
-              <img src="./resources/img/3.jpg" alt="Some bomb food goes here">
-            </figure>
-          </li>
-
-          <li>
-            <figure class="meal-photo" >
-              <img src="./resources/img/4.jpg" alt="Some bomb food goes here">
-            </figure>
-          </li>
-      </ul>
-      <ul class="meals-showcase clearfix">
-          <li>
-            <figure class="meal-photo">
-              <img src="./resources/img/5.jpg" alt="Some bomb food goes here">
-            </figure>
-          </li>
-
-          <li>
-            <figure class="meal-photo">
-              <img src="./resources/img/6.jpg" alt="Some bomb food goes here">
-            </figure>
-          </li>
-
-          <li>
-            <figure class="meal-photo">
-              <img src="./resources/img/7.jpg" alt="Some bomb food goes here">
-            </figure>
-          </li>
-
-          <li>
-            <figure class="meal-photo" >
-              <img src="./resources/img/8.jpg" alt="Some bomb food goes here">
-            </figure>
-          </li>
-      </ul>
-
-    </section>
-
-    <section class="section-steps">
-      <div class="row">
-          <h2 class="stepsh2">How It Works &mdash Simple as 1, 2, 3</h2>
-      </div>
-      <div class="row">
-          <div class="col span-1-of-2 steps-box">
-              <img src="./resources/img/app-Iphone.png" alt="Iphone" class="iphone-img">
+      <div class="col span-1-of-3 customer">
+        <i class="ion-quote" id="quote"></i>
+        <blockquote class="quote">
+          <i>
+            Omni Food is the best! I just got a subcription to their meals
+            and let me tell ya; I've dropped so much weight without really having to do much.
+            I just keep my diet consistent and next thing you know I'm twenty lbs lighter!
+          </i>
+          <div class="cite" <cite> <img src="resources/img/customer-2.jpg"> - Harleaux Carrera</cite>
           </div>
-          <div class="col span-1-of-2 steps-box">
-              <div class="works-step">
-                  <div>1</div>
-                  <p>Choose the subcription that best fits yours needs and sign up today.</p>
-              </div>
-              <div class="works-step">
-                  <div>2</div>
-                  <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
-              </div>
-              <div class="works-step">
-                  <div>3</div>
-                  <p>Enjoy your meal after less that 20 minutes. See you the next time!</p>
-              </div>
+        </blockquote>
+      </div>
+      <div class="col span-1-of-3 customer">
+        <i class="ion-quote" id="quote"></i>
+        <blockquote class="quote">
+          <i>
+            Omni Food is the best! I just got a subcription to their meals
+            and let me tell ya; I've dropped so much weight without really having to do much.
+            I just keep my diet consistent and next thing you know I'm twenty lbs lighter!
+          </i>
+          <div class="cite" <cite> <img src="resources/img/customer-3.jpg"> - Harleaux Carrera</cite>
+      </div>
+      </blockquote>
+    </div>
+    </div>
+
+  </section>
+
+  <section class="sign-ups">
+    <div class="row">
+      <h2> Start Eating Healthy Today</h2>
+    </div>
+
+    <div class="row">
+      <!-------------------------------------------------------->
+      <div class="col span-1-of-3">
+        <div class="plan-box">
+          <div>
+            <h3>Premium Plan</h3>
+            <p class="plan-price">$399 <span> / month</span></p>
+            <p class="plan-price-meal">Another sentence can go here</p>
           </div>
+          <div>
+            <ul>
+              <li> <i class="ion-ios-checkmark-empty icon-small"> </i> ya boi </li>
+              <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+              <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+              <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" class="btn btn-full">Sign up now</a>
+          </div>
+        </div> 
+      </div>   
+       <!-------------------------------------------------------->  
+       <!-------------------------------------------------------->
+      <div class="col span-1-of-3">
+          <div class="plan-box">
+            <div>
+              <h3>Premium Plan</h3>
+              <p class="plan-price">$399<span> / month</span></p>
+              <p class="plan-price-meal">Another sentence can go here</p>
+            </div>
+            <div>
+              <ul>
+                  <li> <i class="ion-ios-checkmark-empty icon-small"> </i> ya boi </li>
+                  <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+                  <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+                  <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-ghost">Sign up now</a>
+            </div>
+          </div> 
+        </div>   
+         <!--------------------------------------------------------> 
+         <!-------------------------------------------------------->
+      <div class="col span-1-of-3">
+          <div class="plan-box">
+            <div>
+              <h3>Premium Plan</h3>
+              <p class="plan-price">$399<span> / meal</span></p>
+              <p class="plan-price-meal">Another sentence can go here</p>
+            </div>
+            <div>
+              <ul>
+                  <li> <i class="ion-ios-checkmark-empty icon-small"> </i> ya boi </li>
+                  <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+                  <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+                  <li> <i class="ion-ios-checkmark-empty icon-small"> </i>ya boi</li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-ghost">Sign up now</a>
+            </div>
+          </div> 
+        </div>   
+         <!--------------------------------------------------------> 
+    </div> 
+  </section>
+
+  <section class="form-section">
+    <div class="row">
+        <h2>We want to hear from you</h2>
+    </div>
+    <div class="row">
+        <form action=" " method="POST" class="contact-form">
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="name"> Name</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="text" name="name" placeholder="Your name" id="name" required>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                  <label for="email"> Email</label>
+                </div>
+                <div class="col span-2-of-3">
+                  <input type="email" name="email" placeholder="Your email" id="email" required>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col span-1-of-3">
+                    <label for="find-us"> How did you hear of us?</label>
+                  </div>
+                  <div class="col span-2-of-3">
+                      <select name="find-us" id="find-us">
+                        <option value="friends" selected >Friends</option>
+                        <option value="search">WWW</option>
+                        <option value="shop">Shop</option>
+                      </select>
+                  </div>
+                  
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                          <label> Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                          <input type="checkbox" name="news" id="news" checked> Yes please
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                          <label > Drop us al line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                          <textarea name="message" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                          <label> &nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                          <input type="submit" value="Send it! "> 
+                        </div>
+                    </div>
+                   
+                </div>
+          </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="row">
+      <div class="col span-1-of-2">
+        <ul class="footer-nav">
+          <li> <a href="#">About us</a></li>
+          <li> <a href="#">Blog </a></li>
+          <li> <a href="#">Press</a></li>
+          <li> <a href="#">Holla</a></li>
+        </ul>
       </div>
-    </section>
-
-    <!--CITIES-->
-    <section class="section-cities">
-      <div class="row">
-        <h2>We are currently in these cities</h2>
+      <div class="col span-1-of-2">
+        <ul class="social-links">
+            <li> <a href=""><i class="ion-social-facebook"></i> </a></li>
+            <li> <a href=""><i class="ion-social-twitter"></i> </a></li>
+            <li> <a href=""><i class="ion-social-instagram"></i> </a></li>
+            <li> <a href=""><i class="ion-social-googleplus"></i> </a></li>
+        </ul>
       </div>
+    </div>
+    <div class="row">
+      <p>
+        Copyright &copy; 2019 Bombae. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
 
-      <div class="row">
-        <div class="col span-1-of-4 box">
-          <img src="resources/img/lisbon-3.jpg" alt="">
-          <h3>Lisbon</h3>
-            <div class="city-feature">
-              <i class="ion-ios-person"></i>
-              1600+ Happy Eaters
-            </div>
-            <div class="city-feature">
-              <i class="ion-ios-star"></i>
-              60+ Top Chefs
-            </div>
-            <div class="city-feature">
-              <i class="ion-social-twitter"></i>
-              <a href="#">@harleauxcarrera</a>
-            </div>
-        </div>
-        <div class="col span-1-of-4 box">
-          <img src="resources/img/berlin.jpg" alt="">
-          <h3>San Fransisco</h3>
-            <div class="city-feature">
-              <i class="ion-ios-person"></i>
-              1600+ Happy Eaters
-            </div>
-            <div class="city-feature">
-              <i class="ion-ios-star"></i>
-              60+ Top Chefs
-            </div>
-            <div class="city-feature">
-              <i class="ion-social-twitter"></i>
-              <a href="#">@harleauxcarrera</a>
-            </div>
-        </div>
-        <div class="col span-1-of-4 box">
-          <img src="resources/img/berlin.jpg" alt="">
-          <h3>Berlin</h3>
-            <div class="city-feature">
-              <i class="ion-ios-person"></i>
-              3600+ Happy Eaters
-            </div>
-            <div class="city-feature">
-              <i class="ion-ios-star"></i>
-              36+ Top Chefs
-            </div>
-            <div class="city-feature">
-              <i class="ion-social-twitter"></i>
-              <a href="#">@harleauxcarrera</a>
-            </div>
-        </div>
-        <div class="col span-1-of-4 box">
-          <img src="resources/img/london.jpg" alt="">
-          <h3>London</h3>
-            <div class="city-feature">
-              <i class="ion-ios-person"></i>
-              1600+ Happy Eaters
-            </div>
-            <div class="city-feature">
-              <i class="ion-ios-star"></i>
-              60+ Top Chefs
-            </div>
-            <div class="city-feature">
-              <i class="ion-social-twitter"></i>
-              <a href="#">@harleauxcarrera</a>
-            </div>
-        </div>
-
-      </div>
-
-
-    </section>
-
-    <section class="section-customers">
-      <div class="row">
-        <h2>Our Customers Can't Live Without Us</h2>
-      </div>
-
-      <div class="row">
-        <div class="col span-1-of-3 customer">
-          <i class="ion-quote"></i>
-          <blockquote class="quote" id="quote">
-            <i>
-              Omni Food is the best! I just got a subcription to their meals
-              and let me tell ya; I've dropped so much weight without really having to do much.
-              I just keep my diet consistent and next thing you know I'm twenty lbs lighter!
-            </i>
-            <div class="cite"
-              <cite> <img src="resources/img/customer-1.jpg"> - Harleaux Carrera</cite>
-            </div>
-
-          </blockquote>
-        </div>
-        <div class="col span-1-of-3 customer">
-          <i class="ion-quote" id="quote"></i>
-          <blockquote class="quote">
-            <i>
-              Omni Food is the best! I just got a subcription to their meals
-              and let me tell ya; I've dropped so much weight without really having to do much.
-              I just keep my diet consistent and next thing you know I'm twenty lbs lighter! Im about to
-              toke some fire!
-            </i>
-            <div class="cite"
-              <cite> <img src="resources/img/customer-2.jpg"> - Harleaux Carrera</cite>
-            </div>
-          </blockquote>
-        </div>
-        <div class="col span-1-of-3 customer">
-          <i class="ion-quote" id="quote"></i>
-          <blockquote class="quote">
-            <i>
-              Omni Food is the best! I just got a subcription to their meals
-              and let me tell ya; I've dropped so much weight without really having to do much.
-              I just keep my diet consistent and next thing you know I'm twenty lbs lighter!
-            </i>
-            <div class="cite"
-              <cite> <img src="resources/img/customer-3.jpg"> - Harleaux Carrera</cite>
-            </div>
-          </blockquote>
-        </div>
-      </div>
-
-    </section>
-
-
-  </body>
 </html>
